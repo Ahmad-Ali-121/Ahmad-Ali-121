@@ -69,6 +69,8 @@ I don't just call APIs and display results. I've built a canvas engine driven by
 |---|---|---|
 | [KitAura](https://github.com/Ahmad-Ali-121/KitAura) | AI-powered document builder SaaS — custom canvas engine, Claude API, Stripe billing | Flutter · Firebase · Claude API · Stripe |
 | [Urban Jungle](https://github.com/Ahmad-Ali-121/urban-jungle) | IoT companion app for smart plant-pod system — live sensor data, grow light scheduling | Flutter · WebSockets · MQTT · Riverpod · Hive |
+| [AI Lead Qualification](https://github.com/Ahmad-Ali-121/ai-lead-qualification-system) | GPT-4o lead scoring pipeline — HOT/WARM/COLD routing, Gmail outreach, Airtable CRM | n8n · GPT-4o · Airtable · Gmail · Slack |
+| [RAG Document Q&A](https://github.com/Ahmad-Ali-121/rag-document-qa) | PDF ingestion to Pinecone, GPT-4o grounded answers, 0.75 confidence gate | n8n · Pinecone · OpenAI · Google Drive |
 
 ---
 
@@ -106,7 +108,7 @@ flowchart LR
     style E fill:#0D1B2A,color:#ffffff,stroke:#00D4AA,font-size:11px
 ```
 
-
+---
 
 ## GitHub Stats
 
