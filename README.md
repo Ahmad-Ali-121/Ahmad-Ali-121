@@ -75,21 +75,27 @@ I don't just call APIs and display results. I've built a canvas engine driven by
 ## How I Build Flutter Apps
 
 ```mermaid
-flowchart TD
-    A[📋 Requirements] --> B[🏗️ Architecture\nClean Arch · MVVM · Riverpod · Bloc]
-    B --> C[🎨 UI & State\nFlutter · Custom Widgets · Animations]
-    C --> D[🔌 API & Backend\nFirebase · REST · WebSockets · MQTT · Dio]
-    D --> E[🧪 Testing\nUnit · Widget · Integration]
-    E --> F[🚀 CI/CD Deploy\nGitHub Actions · Firebase · Vercel]
+flowchart LR
+    A[📋 Requirements] --> B[🏗️ Architecture]
+    B --> C[🎨 UI & State]
+    C --> D[ ]
+
+    E[🚀 Deploy] --> F[ ]
+    F --> G[🧪 Testing]
+    G --> D
+
+    D --> H[🔌 API & Backend]
+    H --> E
 
     style A fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
     style B fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
     style C fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
-    style D fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
     style E fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
-    style F fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
+    style G fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
+    style H fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
+    style D fill:#0D1B2A,color:#0D1B2A,stroke:#0D1B2A
+    style F fill:#0D1B2A,color:#0D1B2A,stroke:#0D1B2A
 ```
-
 ## How I Build AI Automation Systems
 
 ```mermaid
