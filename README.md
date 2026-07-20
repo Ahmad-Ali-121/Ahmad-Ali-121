@@ -81,7 +81,11 @@ I don't just call APIs and display results. I've built a canvas engine driven by
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=Ahmad-Ali-121&theme=tokyonight&hide_border=true" height="165" />
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Ahmad-Ali-121&theme=tokyonight&hide_border=true" />
+
+</div>
 
 </div>
 
