@@ -1,5 +1,11 @@
 <div align="center">
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Flutter+Developer+%26+AI+Specialist;Building+Apps+%26+AI+Automation;Remote+%7C+Lahore%2C+Pakistan)](https://git.io/typing-svg)
+
+</div>
+
+<div align="center">
+
 # Ahmad Ali Khan
 
 **Flutter Developer & AI Integration Specialist**
@@ -70,11 +76,11 @@ I don't just call APIs and display results. I've built a canvas engine driven by
 
 <div align="center">
 
-![Ahmad's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ahmad-Ali-121&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Ahmad's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ahmad-Ali-121&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Ahmad-Ali-121&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=Ahmad-Ali-121&theme=tokyonight&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmad-Ali-121&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmad-Ali-121&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&cache_seconds=1800)
 
 </div>
 
