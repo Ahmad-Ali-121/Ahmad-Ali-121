@@ -76,40 +76,34 @@ I don't just call APIs and display results. I've built a canvas engine driven by
 
 ```mermaid
 flowchart LR
-    A[📋 Requirements] --> B[🏗️ Architecture]
-    B --> C[🎨 UI & State]
-    C --> D[ ]
+    A[📋 **Requirements**] --> B[🏗️ **Architecture**<br/>Clean Arch · Riverpod · Bloc]
+    B --> C[🎨 **UI & State**<br/>Flutter · Widgets · Animations]
+    C --> D[🔌 **API & Backend**<br/>Firebase · REST · WebSockets]
+    D --> E[🧪 **Testing**<br/>Unit · Widget]
+    E --> F[🚀 **Deploy**<br/>GitHub Actions · Vercel]
 
-    E[🚀 Deploy] --> F[ ]
-    F --> G[🧪 Testing]
-    G --> D
-
-    D --> H[🔌 API & Backend]
-    H --> E
-
-    style A fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
-    style B fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
-    style C fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
-    style E fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
-    style G fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
-    style H fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
-    style D fill:#0D1B2A,color:#0D1B2A,stroke:#0D1B2A
-    style F fill:#0D1B2A,color:#0D1B2A,stroke:#0D1B2A
+    style A fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA,font-size:12px
+    style B fill:#0D1B2A,color:#ffffff,stroke:#00D4AA,font-size:11px
+    style C fill:#0D1B2A,color:#ffffff,stroke:#00D4AA,font-size:11px
+    style D fill:#0D1B2A,color:#ffffff,stroke:#00D4AA,font-size:11px
+    style E fill:#0D1B2A,color:#ffffff,stroke:#00D4AA,font-size:11px
+    style F fill:#0D1B2A,color:#ffffff,stroke:#00D4AA,font-size:11px
 ```
+
 ## How I Build AI Automation Systems
 
 ```mermaid
-flowchart TD
-    A[📥 Trigger\nWebhook · API · Schedule] --> B[⚙️ Orchestration\nn8n · LangChain]
-    B --> C[🤖 AI Layer\nGPT-4o · Claude · Gemini]
-    C --> D[🗄️ Memory & Storage\nPinecone · Airtable · Google Sheets]
-    D --> E[📤 Output\nSlack · SMS · CRM · Auto-Publish]
+flowchart LR
+    A[📥 **Trigger**<br/>Webhook · API] --> B[⚙️ **Orchestrate**<br/>n8n · LangChain]
+    B --> C[🤖 **AI Layer**<br/>GPT-4o · Claude]
+    C --> D[🗄️ **Memory**<br/>Pinecone · Airtable]
+    D --> E[📤 **Output**<br/>Slack · SMS · CRM]
 
-    style A fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
-    style B fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
-    style C fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
-    style D fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
-    style E fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
+    style A fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA,font-size:12px
+    style B fill:#0D1B2A,color:#ffffff,stroke:#00D4AA,font-size:11px
+    style C fill:#0D1B2A,color:#ffffff,stroke:#00D4AA,font-size:11px
+    style D fill:#0D1B2A,color:#ffffff,stroke:#00D4AA,font-size:11px
+    style E fill:#0D1B2A,color:#ffffff,stroke:#00D4AA,font-size:11px
 ```
 
 
