@@ -76,11 +76,12 @@ I don't just call APIs and display results. I've built a canvas engine driven by
 
 <div align="center">
 
-![Ahmad's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ahmad-Ali-121&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800)
+<img src="https://github-readme-stats.vercel.app/api?username=Ahmad-Ali-121&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmad-Ali-121&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="165" />
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=Ahmad-Ali-121&theme=tokyonight&hide_border=true)
+<br/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmad-Ali-121&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&cache_seconds=1800)
+<img src="https://streak-stats.demolab.com/?user=Ahmad-Ali-121&theme=tokyonight&hide_border=true" height="165" />
 
 </div>
 
