@@ -83,7 +83,7 @@ I don't just call APIs and display results. I've built a canvas engine driven by
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Ahmad-Ali-121&theme=tokyonight&hide_border=true" />
+![](https://komarev.com/ghpvc/?username=Ahmad-Ali-121&color=00D4AA&style=flat-square&label=Profile+Views)
 
 </div>
 
