@@ -75,12 +75,12 @@ I don't just call APIs and display results. I've built a canvas engine driven by
 ## How I Build Flutter Apps
 
 ```mermaid
-flowchart LR
-    A[📋 Requirements] --> B[🏗️ Architecture]
-    B --> C[🎨 UI & State]
-    C --> D[🔌 API & Backend]
-    D --> E[🧪 Testing]
-    E --> F[🚀 CI/CD Deploy]
+flowchart TD
+    A[📋 Requirements] --> B[🏗️ Architecture\nClean Arch · MVVM · Riverpod · Bloc]
+    B --> C[🎨 UI & State\nFlutter · Custom Widgets · Animations]
+    C --> D[🔌 API & Backend\nFirebase · REST · WebSockets · MQTT · Dio]
+    D --> E[🧪 Testing\nUnit · Widget · Integration]
+    E --> F[🚀 CI/CD Deploy\nGitHub Actions · Firebase · Vercel]
 
     style A fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
     style B fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
@@ -90,23 +90,14 @@ flowchart LR
     style F fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
 ```
 
-**Stack at each stage:**
-- **Architecture** — Clean Architecture · MVVM · Riverpod · Bloc
-- **UI & State** — Flutter · Custom Widgets · Animations · GestureDetector
-- **API & Backend** — Firebase · REST APIs · WebSockets · MQTT · Dio
-- **Testing** — Unit Testing · Widget Testing · Integration Testing
-- **Deploy** — GitHub Actions · Firebase Hosting · Vercel · Hostinger
-
----
-
 ## How I Build AI Automation Systems
 
 ```mermaid
-flowchart LR
-    A[📥 Trigger\nWebhook / API / Schedule] --> B[⚙️ Process\nn8n / LangChain]
-    B --> C[🤖 AI Layer\nGPT-4o / Claude / Gemini]
-    C --> D[🗄️ Memory\nPinecone / Airtable]
-    D --> E[📤 Output\nSlack / SMS / CRM / Publish]
+flowchart TD
+    A[📥 Trigger\nWebhook · API · Schedule] --> B[⚙️ Orchestration\nn8n · LangChain]
+    B --> C[🤖 AI Layer\nGPT-4o · Claude · Gemini]
+    C --> D[🗄️ Memory & Storage\nPinecone · Airtable · Google Sheets]
+    D --> E[📤 Output\nSlack · SMS · CRM · Auto-Publish]
 
     style A fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
     style B fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
@@ -114,15 +105,6 @@ flowchart LR
     style D fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
     style E fill:#0D1B2A,color:#00D4AA,stroke:#00D4AA
 ```
-
-**What I've shipped with this stack:**
-- 🎯 AI lead scoring — webhook intake → GPT-4o scoring → 3-way CRM routing
-- 📞 Voice booking agent — phone call → transcript → calendar check → SMS confirm
-- 📝 Multi-agent content pipeline — topic → research → write → edit → auto-publish
-- 🔍 RAG Q&A system — PDF ingestion → Pinecone embeddings → cited answers
-
----
-
 
 
 
